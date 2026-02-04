@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artificial Intelligence and the Future of Student Assessment</title>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f2f4f7;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* COVER */
+header {
+  position: relative;
+  height: 420px;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(55%);
+}
+header .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  font-size: 3rem;
+  max-width: 900px;
+}
+
+/* MAIN */
+main {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: -80px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-left: 6px solid #2563eb;
+  padding-left: 12px;
+}
+
+.article-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.stat-box {
+  background: #eef4ff;
+  padding: 20px;
+  border-left: 6px solid #2563eb;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+canvas {
+  max-width: 750px;
+  margin: 40px auto;
+  display: block;
+}
+
+/* REFERENCES */
+.references p {
+  margin-left: 30px;
+  text-indent: -30px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<!-- COVER -->
+<header>
+  <img src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="AI and Education">
+  <div class="overlay">
+    <h1>Artificial Intelligence and the Future of Measuring Student Learning</h1>
+  </div>
+</header>
+
+<main>
+
+<!-- SECTION 1 -->
+<section>
+  <h2>Why Traditional Assessment Is Under Pressure</h2>
+  <p>
+    The rapid adoption of generative artificial intelligence has changed how students complete
+    academic tasks. Tools such as ChatGPT can instantly generate explanations, summaries,
+    and structured responses, challenging the reliability of conventional homework and essays.
+  </p>
+  <p>
+    This shift does not eliminate learning, but it raises a critical question:
+    <strong>how can educators accurately measure understanding in an AI-supported environment?</strong>
+  </p>
+</section>
+
+<img class="article-img" src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt="Students using digital tools">
+
+<!-- SECTION 2 -->
+<section>
+  <h2>Assessment as Evidence of Thinking</h2>
+  <p>
+    Modern educational research emphasizes that learning should be evaluated through reasoning,
+    interpretation, and reflection rather than final answers alone.
+    AI can assist with drafting, but it cannot fully replace a learner’s judgment.
+  </p>
+  <ul>
+    <li>Explaining reasoning steps</li>
+    <li>Evaluating AI-generated responses</li>
+    <li>Applying knowledge to new contexts</li>
+  </ul>
+</section>
+
+<img class="article-img" src="https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt="Teacher assessing students">
+
+<!-- SECTION 3 -->
+<section>
+  <h2>Statistical Trends in AI-Assisted Learning</h2>
+
+  <div class="stat-box">
+    <strong>Student Adoption:</strong> Surveys from 2023–2024 indicate that approximately
+    <strong>60% of university students</strong> reported using AI tools for learning support.
+  </div>
+
+  <div class="stat-box">
+    <strong>Educator Response:</strong> Nearly <strong>half of instructors</strong> reported
+    modifying assessment strategies due to AI-generated submissions.
+  </div>
+
+  <canvas id="usageChart"></canvas>
+  <canvas id="impactChart"></canvas>
+</section>
+
+<img class="article-img" src="https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt="AI evaluation">
+
+<!-- SECTION 4 -->
+<section>
+  <h2>Does Research Support AI-Integrated Assessment?</h2>
+  <p>
+    Research suggests that AI can improve conceptual understanding when used for feedback,
+    revision, and idea generation. However, studies also warn that unrestricted AI use
+    in summative assessments may overestimate student mastery.
+  </p>
+  <p>
+    These findings suggest that assessment validity depends on design, not on banning technology.
+  </p>
+</section>
+
+<!-- SECTION 5 -->
+<section>
+  <h2>Designing Fair and Future-Ready Evaluation Models</h2>
+  <ol>
+    <li><strong>Transparency:</strong> Clear guidelines for AI usage</li>
+    <li><strong>Human Judgment:</strong> Focus on explanation and justification</li>
+    <li><strong>Skill Relevance:</strong> Emphasis on analysis and ethical reasoning</li>
+  </ol>
+</section>
+
+<!-- CONCLUSION -->
+<section>
+  <h2>Conclusion</h2>
+  <p>
+    Generative AI exposes weaknesses in outdated assessment practices.
+    When learning is measured through reasoning and reflection,
+    AI becomes a tool for growth rather than a threat to academic integrity.
+  </p>
+</section>
+
+<!-- REFERENCES -->
+<section class="references">
+  <h2>References (APA Style)</h2>
+
+  <p>
+    Holmes, W., Bialik, M., & Fadel, C. (2019).
+    <em>Artificial intelligence in education: Promises and implications for teaching and learning</em>.
+    Center for Curriculum Redesign.
+  </p>
+
+  <p>
+    Kasneci, E., et al. (2023).
+    ChatGPT for good? On opportunities and challenges of large language models for education.
+    <em>Learning and Individual Differences, 103</em>, 102274.
+    https://doi.org/10.1016/j.lindif.2023.102274
+  </p>
+
+  <p>
+    Luckin, R. (2018).
+    <em>Machine learning and human intelligence: The future of education</em>.
+    UCL IOE Press.
+  </p>
+
+  <p>
+    Williamson, B., & Eynon, R. (2020).
+    Historical threads and future directions in AI in education.
+    <em>Learning, Media and Technology, 45</em>(3), 223–235.
+    https://doi.org/10.1080/17439884.2020.1798995
+  </p>
+</section>
+
+</main>
+
+<footer>
+  © 2026 | Educational Technology & Learning Research
+</footer>
+
+<script>
+// Chart 1: AI Adoption
+new Chart(document.getElementById('usageChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Students Using AI', 'Educators Modifying Assessment'],
+    datasets: [{
+      label: 'Percentage (%)',
+      data: [60, 48]
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: true, max: 100 }
+    }
+  }
+});
+
+// Chart 2: Learning Impact
+new Chart(document.getElementById('impactChart'), {
+  type: 'line',
+  data: {
+    labels: ['No AI', 'Feedback Use', 'Brainstorming', 'Answer Generation'],
+    datasets: [{
+      label: 'Learning Gain (%)',
+      data: [0, 12, 18, 2],
+      tension: 0.4
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: true }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
